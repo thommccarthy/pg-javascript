@@ -17,8 +17,6 @@ const getFacts = () =>
         const br = document.createElement('br');
         factsContainer.appendChild(br);
       });
-
-      console.log(data[0].text);
     });
 
 getFactsButton.addEventListener('click', getFacts, { once: true });
