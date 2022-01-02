@@ -7,19 +7,36 @@ img {
 }
 
 .modal-container {
-  display: block;
+  display: grid;
+  bottom: -100vh;
+  position: relative;
+  margin-top: 5em;
+  grid-template-columns: 1fr 1fr;
   margin: auto;
   max-width: 40em;
+  transition: 0.2s;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 ul {
-  height: 10em;
+  height: 20em;
   list-style: none;
   font-size: 1em;
+  padding: 0;
 }
 
 li {
   display: block;
   width: 100%;
   padding-top: 1em;
+}
+
+button {
+  display: block;
 }
