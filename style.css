@@ -2,7 +2,14 @@ body {
   background: rgba(128, 128, 128, 0.281);
 }
 
+img {
+  width: 100%;
+}
+
 .modal-container {
+  display: block;
+  margin: auto;
+  max-width: 40em;
 }
 
 ul {
