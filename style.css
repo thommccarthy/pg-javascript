@@ -1,0 +1,9 @@
+ul {
+  list-style: none;
+  font-size: 1em;
+}
+
+li {
+  display: block;
+  width: 100%;
+}
