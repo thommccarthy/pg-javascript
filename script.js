@@ -21,6 +21,4 @@ const getFacts = () =>
       console.log(data[0].text);
     });
 
-getFacts();
-
-getFactsButton.onclick(getFacts());
+getFactsButton.addEventListener('click', getFacts, { once: true });

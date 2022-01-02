@@ -1,4 +1,12 @@
+body {
+  background: rgba(128, 128, 128, 0.281);
+}
+
+.modal-container {
+}
+
 ul {
+  height: 10em;
   list-style: none;
   font-size: 1em;
 }
@@ -6,4 +14,5 @@ ul {
 li {
   display: block;
   width: 100%;
+  padding-top: 1em;
 }
